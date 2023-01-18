@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="contenedor">
+        <aside>
+            <header>
+                <h1 class="logo"><a href="#" class="logo1">GMEZA</a></h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" class="btnMenu btnVolver"><i class="bi bi-arrow-left-square"></i> Seguir comprando <span class="numero">0</span> </a>
+                    </li>
+                    <li>
+                        <a href="carrito.html" class="btnMenu carrito active"><i class="bi bi-cart-fill"></i> Carrito </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="textoFooter">&copy; Gabriel Meza</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo_prin">Carrito</h2>
+            <div class="contenedor_car">
+                <p class="vacio">Tu carrito está vacío <i class="bi bi-emoji-frown"></i></p>
+                <div class="carrito_productos">
+                    <div class="carrito_producto">
+                        <img src="img/abrigos/01.jpg" alt="">
+                        <div class="carrito_producto_titulo">
+                            <small>Titulo</small>
+                            <h3>Abrigo 01</h3>
+                        </div>
+                        <div class="carrito_producto_cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrito_producto_precio">
+                            <small>Precio</small>
+                            <p>$1000</p>
+                        </div>
+                        <div class="carrito_producto_subtotal">
+                            <small>Subtotal</small>
+                            <p>$1000</p>
+                        </div>
+                        <button class="carrito_producto_eliminar"><i class="bi bi-trash"></i></button>
+                    </div>
+                    <div class="carrito_producto">
+                        <img src="img/abrigos/01.jpg" alt="">
+                        <div class="carrito_producto_titulo">
+                            <small>Titulo</small>
+                            <h3>Abrigo 01</h3>
+                        </div>
+                        <div class="carrito_producto_cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrito_producto_precio">
+                            <small>Precio</small>
+                            <p>$1000</p>
+                        </div>
+                        <div class="carrito_producto_subtotal">
+                            <small>Subtotal</small>
+                            <p>$1000</p>
+                        </div>
+                        <button class="carrito_producto_eliminar"><i class="bi bi-trash"></i></button>
+                    </div>
+                </div>
+
+                <div class="carrito_acciones">
+                    <div class="carrito_acciones_izquierda">
+                        <button class="carrito_acciones_vaciar">Vaciar Carrito</button>
+                    </div>
+                    <div class="carrito_acciones_derecha">
+                        <div class="carrito_acciones_total">
+                            <p>Total</p>
+                            <p id="total">$3000</p>
+                        </div>
+                        <button class="carrito_acciones_comprar">Comprar ahora</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
